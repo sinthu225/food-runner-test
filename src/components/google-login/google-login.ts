@@ -32,7 +32,7 @@ export class GoogleLoginComponent {
     try {
 
       const gplusUser = await this.gplus.login({
-        'webClientId': 'INSERT-YOUR-webClientId',
+        'webClientId': '21100840191-9q70c7io8o1perjp82r4qfci0a8gj09r.apps.googleusercontent.com',
         'offline': true,
         'scopes': 'profile email'
       })
@@ -51,6 +51,7 @@ export class GoogleLoginComponent {
     try {
       const provider = new firebase.auth.GoogleAuthProvider();
       const credential = await this.afAuth.auth.signInWithPopup(provider);
+      console.log(this.user);
 
     } catch(err) {
       console.log(err)

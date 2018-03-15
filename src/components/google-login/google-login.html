@@ -9,7 +9,7 @@
       </button>
   
       <div *ngIf="user.uid">
-        You're already logged in with UID: {{ user.uid }}
+        You're already logged in with UID: {{ user.name.displayName }}
   
         <button ion-button (tap)="signOut()">
           Signout
