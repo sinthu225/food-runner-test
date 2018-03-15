@@ -19,7 +19,7 @@ import { ComponentsModule } from '../components/components.module';
 
 const firebaseConfig = {
   apiKey: "AIzaSyARwi1z1GFh-rDfMpuWN6HRE7ACtFBwPvk",
-  // authDomain: "upay-assignment.firebaseapp.com",
+  authDomain: "foodrunner-test.firebaseapp.com",
   databaseURL: "https://foodrunner-test.firebaseio.com",
   projectId: "foodrunner-test",
   storageBucket: "foodrunner-test.appspot.com",
