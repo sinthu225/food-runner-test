@@ -1,0 +1,8 @@
+{
+  "name": "foodrunner",
+  "app_id": "1944bb85",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
