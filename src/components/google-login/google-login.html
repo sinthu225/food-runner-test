@@ -5,11 +5,11 @@
               *ngIf="!user.uid" 
               (tap)="googleLogin()">
   
-          Login with Google
+          Login with Google +
       </button>
   
       <div *ngIf="user.uid">
-        You're already logged in with UID: {{ user.name.displayName }}
+        You're already logged in with UID: {{ user }}
   
         <button ion-button (tap)="signOut()">
           Signout
